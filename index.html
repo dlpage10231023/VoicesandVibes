@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join us every Monday for Family Matters Monday. Get practical parenting tips, marriage advice, and tools for stronger family connections. Streaming 24/7 at voicesandvibes.fm.">
+    <meta name="keywords" content="family radio, parenting tips, marriage advice, family therapy, family matters, voices and vibes">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Family Matters Monday | Voices & Vibes Radio">
+    <meta property="og:description" content="Building stronger families, one conversation at a time. Join us every Monday.">
+    <meta property="og:image" content="https://voicesandvibes.fm/images/family-matters-og.jpg">
+    <meta property="og:url" content="https://voicesandvibes.fm/family-matters-monday">
+    
+    <title>Family Matters Monday on Voices & Vibes | Building Stronger Families</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="/">
+                    <i class="fas fa-microphone-alt"></i>
+                    <span>Voices & Vibes</span>
+                </a>
+            </div>
+            <div class="nav-links">
+                <a href="/" class="nav-link">Home</a>
+                <a href="/about" class="nav-link">About</a>
+                <a href="/schedule" class="nav-link">Schedule</a>
+                <a href="/partner" class="nav-link">Partner</a>
+                <a href="#listen" class="nav-link btn-primary-small">Listen Live</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="/" class="mobile-link">Home</a>
+        <a href="/about" class="mobile-link">About</a>
+        <a href="/schedule" class="mobile-link">Schedule</a>
+        <a href="/partner" class="mobile-link">Partner</a>
+        <a href="#listen" class="mobile-link">Listen Live</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-container">
+            <div class="hero-emoji">👨‍👩‍👧‍👦</div>
+            <h1 class="hero-title">FAMILY MATTERS MONDAY</h1>
+            <p class="hero-subtitle">Building Stronger Families, One Conversation at a Time</p>
+            <div class="hero-buttons">
+                <a href="#listen" class="btn btn-primary btn-large">
+                    <i class="fas fa-headphones"></i> Listen Now
+                </a>
+                <a href="#submit-question" class="btn btn-secondary btn-large">
+                    <i class="fas fa-envelope"></i> Submit Your Question
+                </a>
+            </div>
+            <p class="hero-tagline">"Start your week with practical tools, expert insights, and hope for your family."</p>
+        </div>
+    </section>
+
+    <!-- What to Expect Section -->
+    <section class="what-to-expect">
+        <div class="container">
+            <h2 class="section-title">What to Expect Every Monday</h2>
+            <p class="section-intro">Join us from 6am-10pm for a full day of family-focused programming</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎵</div>
+                    <h3>Uplifting Music</h3>
+                    <p>Smooth jazz to energize your week and create a peaceful atmosphere</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💬</div>
+                    <h3>Real Conversations</h3>
+                    <p>Honest talk about the joys and challenges of family life</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎙️</div>
+                    <h3>Expert Tips</h3>
+                    <p>Insights from family therapists, parenting coaches, and relationship experts</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📻</div>
+                    <h3>Your Stories</h3>
+                    <p>Real families sharing what's working (and what's not)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Today's Focus Section -->
+    <section class="todays-focus">
+        <div class="container">
+            <h2 class="section-title">Today's Focus</h2>
+            <p class="section-intro">Each hour brings a new topic to support your family journey</p>
+            
+            <div class="schedule-grid">
+                <div class="schedule-card">
+                    <div class="schedule-time">6am - 10am</div>
+                    <h3>Communication with Kids</h3>
+                    <p>"How to talk so your kids actually listen"</p>
+                </div>
+                <div class="schedule-card">
+                    <div class="schedule-time">10am - 2pm</div>
+                    <h3>Strengthening Your Marriage</h3>
+                    <p>"Keeping your partnership strong when life gets busy"</p>
+                </div>
+                <div class="schedule-card">
+                    <div class="schedule-time">2pm - 6pm</div>
+                    <h3>Multi-Generational Families</h3>
+                    <p>"Navigating relationships with aging parents and extended family"</p>
+                </div>
+                <div class="schedule-card">
+                    <div class="schedule-time">6pm - 10pm</div>
+                    <h3>Family Connection Rituals</h3>
+                    <p>"Creating meaningful traditions that bring you closer"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Submit Question Form Section -->
+    <section class="form-section" id="submit-question">
+        <div class="container">
+            <div class="form-header">
+                <h2 class="section-title">📧 Share Your Family Question</h2>
+                <p class="section-intro">Got a family challenge you're facing? We want to hear from you! Submit your question and we may answer it on air (anonymously, if you prefer).</p>
+            </div>
+            
+            <div class="form-container">
+                <form id="questionForm" class="interactive-form">
+                    <div class="form-group">
+                        <label for="name">Your Name (Optional)</label>
+                        <input type="text" id="name" name="name" placeholder="First name or leave blank for anonymous">
+                    </div>
+
+                    <div class="form-group">
+                        <div class="checkbox-wrapper">
+                            <input type="checkbox" id="anonymous" name="anonymous">
+                            <label for="anonymous" class="checkbox-label">Keep me anonymous on air</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address <span class="required">*</span></label>
+                        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="question">Your Family Question <span class="required">*</span></label>
+                        <textarea id="question" name="question" required rows="5" maxlength="500" placeholder="Share your family challenge or question here... (max 500 characters)"></textarea>
+                        <div class="char-count">
+                            <span id="charCount">0</span> / 500 characters
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="category">Topic Category <span class="required">*</span></label>
+                        <select id="category" name="category" required>
+                            <option value="">-- Select a category --</option>
+                            <option value="parenting-toddlers">Parenting (Toddlers)</option>
+                            <option value="parenting-kids">Parenting (School-age Kids)</option>
+                            <option value="parenting-teens">Parenting (Teenagers)</option>
+                            <option value="parenting-young-adults">Parenting (Young Adults)</option>
+                            <option value="marriage">Marriage/Partnership</option>
+                            <option value="blended-families">Blended Families</option>
+                            <option value="extended-family">Extended Family</option>
+                            <option value="siblings">Sibling Relationships</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-large btn-block">
+                            <i class="fas fa-paper-plane"></i> Submit Question
+                        </button>
+                    </div>
+
+                    <div class="form-message" id="formMessage"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Weekly Challenge Section -->
+    <section class="challenge-section">
+        <div class="container">
+            <div class="challenge-card">
+                <h2>💬 This Week's Family Challenge</h2>
+                <div class="challenge-content">
+                    <h3>Have one device-free dinner every night this week</h3>
+                    <p>No phones. No TV. Just conversation.</p>
+                    
+                    <div class="challenge-tips">
+                        <h4>Try these conversation starters:</h4>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> "What made you smile today?"</li>
+                            <li><i class="fas fa-check-circle"></i> "What was hard today?"</li>
+                            <li><i class="fas fa-check-circle"></i> "If you could have any superpower, what would it be and why?"</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="challenge-cta">
+                        <p><strong>Share your experience:</strong></p>
+                        <p>Post on social media with <span class="hashtag">#FamilyMattersMonday</span> and tag <span class="mention">@VoicesAndVibes</span></p>
+                        <div class="social-buttons">
+                            <a href="https://twitter.com/intent/tweet?text=We%20took%20the%20%23FamilyMattersMonday%20challenge!%20%40VoicesAndVibes" target="_blank" class="social-btn twitter">
+                                <i class="fab fa-twitter"></i> Tweet
+                            </a>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://voicesandvibes.fm/family-matters-monday" target="_blank" class="social-btn facebook">
+                                <i class="fab fa-facebook-f"></i> Share
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="social-btn instagram">
+                                <i class="fab fa-instagram"></i> Post
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Listen Now Section -->
+    <section class="listen-section" id="listen">
+        <div class="container">
+            <h2 class="section-title">🎧 Listen Live Now</h2>
+            <p class="section-intro">Tune in to Family Matters Monday - streaming now!</p>
+            
+            <div class="player-container">
+                <div class="player-info">
+                    <div class="now-playing">
+                        <span class="pulse-dot"></span>
+                        <span>LIVE NOW</span>
+                    </div>
+                    <h3>Family Matters Monday</h3>
+                    <p>Voices & Vibes Radio • Monday 6am-10pm</p>
+                </div>
+                
+                <!-- Replace this iframe with your actual Citrus3 player embed code -->
+                <div class="player-embed">
+                    <iframe src="YOUR_CITRUS3_PLAYER_URL_HERE" 
+                            width="100%" 
+                            height="150" 
+                            frameborder="0" 
+                            scrolling="no" 
+                            allowfullscreen>
+                    </iframe>
+                    <!-- Alternative: If you don't have embed yet, use this placeholder -->
+                    <div class="player-placeholder">
+                        <i class="fas fa-play-circle"></i>
+                        <p>Player will appear here</p>
+                        <a href="YOUR_RADIO_PAGE_URL" target="_blank" class="btn btn-primary">
+                            Open Radio Page
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="player-links">
+                    <a href="#" class="player-link"><i class="fas fa-mobile-alt"></i> Mobile App (Coming Soon)</a>
+                    <a href="#" class="player-link"><i class="fas fa-volume-up"></i> Smart Speaker</a>
+                    <a href="#" class="player-link"><i class="fas fa-desktop"></i> Desktop Player</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section class="resources-section">
+        <div class="container">
+            <h2 class="section-title">📚 Family Resources</h2>
+            
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <h3><i class="fas fa-book"></i> Recommended Books</h3>
+                    <ul>
+                        <li>"The Whole-Brain Child" by Daniel J. Siegel</li>
+                        <li>"Hold Me Tight" by Dr. Sue Johnson</li>
+                        <li>"How to Talk So Kids Will Listen" by Adele Faber</li>
+                    </ul>
+                </div>
+                
+                <div class="resource-card">
+                    <h3><i class="fas fa-phone-alt"></i> Hotlines & Support</h3>
+                    <ul>
+                        <li><strong>National Parent Helpline:</strong> 1-855-427-2736</li>
+                        <li><strong>Crisis Text Line:</strong> Text HOME to 741741</li>
+                        <li><strong>SAMHSA Family Support:</strong> 1-800-662-4357</li>
+                    </ul>
+                </div>
+                
+                <div class="resource-card">
+                    <h3><i class="fas fa-link"></i> Online Resources</h3>
+                    <ul>
+                        <li><a href="#" target="_blank">Family Therapy Directory</a></li>
+                        <li><a href="#" target="_blank">Parenting Podcasts</a></li>
+                        <li><a href="#" target="_blank">Marriage Resources</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">💚 What Listeners Are Saying</h2>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"Family Matters Monday saved my relationship with my teenager. The communication tips actually work!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <strong>Sarah M.</strong> • Atlanta, GA
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"I listen every Monday morning on my commute. It helps me be more intentional with my family."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <strong>David L.</strong> • Seattle, WA
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"The weekly challenges are simple but powerful. Our family is closer because of them."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <strong>Maria R.</strong> • Miami, FL
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Join Us Every Monday</h2>
+                <p>Never miss an episode of Family Matters Monday</p>
+                
+                <div class="cta-options">
+                    <div class="cta-option">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Subscribe to Updates</h3>
+                        <p>Get weekly family tips in your inbox</p>
+                        <form id="subscribeForm" class="subscribe-form">
+                            <input type="email" placeholder="your.email@example.com" required>
+                            <button type="submit" class="btn btn-primary">Subscribe</button>
+                        </form>
+                    </div>
+                    
+                    <div class="cta-option">
+                        <i class="fas fa-bell"></i>
+                        <h3>Set a Reminder</h3>
+                        <p>Add Family Matters Monday to your calendar</p>
+                        <a href="#" class="btn btn-secondary">Add to Calendar</a>
+                    </div>
+                    
+                    <div class="cta-option">
+                        <i class="fas fa-share-alt"></i>
+                        <h3>Follow Us</h3>
+                        <p>Stay connected on social media</p>
+                        <div class="social-links">
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Up Next Section -->
+    <section class="up-next-section">
+        <div class="container">
+            <h2 class="section-title">📻 Up Next</h2>
+            <div class="next-show-card">
+                <div class="next-show-emoji">💚</div>
+                <h3>Tomorrow: Healing Tuesday</h3>
+                <p>Focus on YOUR mental health and self-care</p>
+                <a href="/healing-tuesday" class="btn btn-secondary">Preview Tomorrow's Show <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Navigation -->
+    <section class="footer-nav-section">
+        <div class="container">
+            <h3>Explore Our Weekly Themes</h3>
+            <div class="footer-nav-grid">
+                <a href="/family-matters-monday" class="footer-nav-card active">
+                    <span class="emoji">👨‍👩‍👧‍👦</span>
+                    <span class="day">Monday</span>
+                    <span class="theme">Family Matters</span>
+                </a>
+                <a href="/healing-tuesday" class="footer-nav-card">
+                    <span class="emoji">💚</span>
+                    <span class="day">Tuesday</span>
+                    <span class="theme">Healing</span>
+                </a>
+                <a href="/connection-wednesday" class="footer-nav-card">
+                    <span class="emoji">💬</span>
+                    <span class="day">Wednesday</span>
+                    <span class="theme">Connection</span>
+                </a>
+                <a href="/purpose-thursday" class="footer-nav-card">
+                    <span class="emoji">🌟</span>
+                    <span class="day">Thursday</span>
+                    <span class="theme">Purpose</span>
+                </a>
+                <a href="/freedom-friday" class="footer-nav-card">
+                    <span class="emoji">🎉</span>
+                    <span class="day">Friday</span>
+                    <span class="theme">Freedom</span>
+                </a>
+                <a href="/soul-saturday" class="footer-nav-card">
+                    <span class="emoji">🧘‍♀️</span>
+                    <span class="day">Saturday</span>
+                    <span class="theme">Soul</span>
+                </a>
+                <a href="/gospel-sunday" class="footer-nav-card">
+                    <span class="emoji">🙏</span>
+                    <span class="day">Sunday</span>
+                    <span class="theme">Gospel</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-section">
+                <h4>Voices & Vibes</h4>
+                <p>Where conversations meet jazz.<br>Where faith meets healing.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/schedule">Schedule</a></li>
+                    <li><a href="/partner">Partner With Us</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Weekly Themes</h4>
+                <ul>
+                    <li><a href="/family-matters-monday">Family Matters Monday</a></li>
+                    <li><a href="/healing-tuesday">Healing Tuesday</a></li>
+                    <li><a href="/connection-wednesday">Connection Wednesday</a></li>
+                    <li><a href="/gospel-sunday">Gospel Sunday</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <ul>
+                    <li><i class="fas fa-envelope"></i> hello@voicesandvibes.fm</li>
+                    <li><i class="fas fa-globe"></i> voicesandvibes.fm</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Streaming Worldwide</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 Voices & Vibes Radio. All rights reserved.</p>
+                <p><a href="/privacy">Privacy Policy</a> | <a href="/terms">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" title="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
